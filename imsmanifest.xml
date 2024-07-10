@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest identifier="00" version="1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="Autor_del_H5P">
+    <organization identifier="Autor_del_H5P">
+      <title>El Ciclo del Agua</title>
+      <item identifier="item_00" identifierref="resource_00">
+        <title>El Ciclo del Agua</title>
+        <adlcp:masteryscore>70</adlcp:masteryscore>
+        <metadata>
+          <schema>ADL SCORM</schema>
+          <schemaversion>1.2</schemaversion>
+          <adlcp:location>metadata.xml</adlcp:location>
+        </metadata>
+      </item>
+      <metadata>
+        <schema>ADL SCORM</schema>
+        <schemaversion>1.2</schemaversion>
+        <adlcp:location>metadata.xml</adlcp:location>
+      </metadata>
+    </organization>
+  </organizations>
+  <resources>
+    <metadata>
+      <schema>ADL SCORM</schema>
+      <schemaversion>1.2</schemaversion>
+      <adlcp:location>metadata.xml</adlcp:location>
+    </metadata>
+    <resource identifier="resource_00" type="webcontent" href="index.html" adlcp:scormtype="sco">
+      <metadata>
+        <schema>ADL SCORM</schema>
+        <schemaversion>1.2</schemaversion>
+        <adlcp:location>metadata.xml</adlcp:location>
+      </metadata>
+      <file href="audios/audio-adE5x5iH.ogg"/>
+      <file href="audios/audio-DIATZXvu.ogg"/>
+      <file href="audios/audio-GBEgJPuG.ogg"/>
+      <file href="audios/audio-yWMJ8P74.ogg"/>
+      <file href="h5p-adaptor.js"/>
+      <file href="images/image-618Pk5pO.jpg"/>
+      <file href="images/image-8Tw1AkPN.jpg"/>
+      <file href="images/image-mihYHfyg.jpg"/>
+      <file href="index.html"/>
+      <file href="SCORM_API_wrapper.js"/>
+      <file href="videos/video-U64swXYy.mp4"/>
+    </resource>
+  </resources>
+</manifest>
